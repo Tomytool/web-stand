@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+    <title>7° Básico</title>
+  </head>
+  <body>
+    <nav class="p-2 flex justify-between bg-[#8c2703]">
+      <a
+        href="https://www.instagram.com/colegio_carlomagno?ref=badge"
+        rel="noopener noreferrer"
+        class="w-12"
+      >
+        <img
+          src="./assets/Designer.png"
+          alt="Logo del 7° basico"
+          class="max-w-11"
+        />
+      </a>
+      <ul class="flex items-center gap-x-3 mr-[5rem] md:mr-[20rem]">
+        <li
+          class="bg-[#025373] rounded-lg px-3 py-2 text-white font-bold font-sans hover:bg-[#163ce5] cursor-pointer"
+        >
+          <a href="./index.html">Datos</a>
+        </li>
+        <li
+          class="bg-[#025373] rounded-lg px-3 py-2 text-white font-bold font-sans hover:bg-[#163ce5] cursor-pointer"
+        >
+          <a href="./recetas.html">Recetas</a>
+        </li>
+      </ul>
+    </nav>
+    <header
+      class="w-[100%] h-full bg-[url('./assets/Receta_1-1-scaled.jpg')] bg-cover md:h-screen"
+    >
+      <section
+        class="w-full h-[100%] p-[10%] bg-[#00000068] flex flex-col justify-center"
+      >
+        <h1 class="text-white font-bold font-sans text-5xl mb-4">
+          Una rica bebida para disfrutar¡
+        </h1>
+        <p class="text-white font-sans mb-4">
+          Somos un grupo de apoderados de 7° básico, queremos ofrecerles un rico
+          Mote con Huesillo, el cual es una de nuestras bebidas típicas, si
+          quiere averiguar más de esta rica bebida siga navegando por nuestra
+          web para obtener más información
+        </p>
+        <a
+          href="https://es.wikipedia.org/wiki/Mote_con_huesillos"
+          class="inline-flex items-center w-fit px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >Aprende mas...</a
+        >
+      </section>
+    </header>
+    <!-- datos nutricionales del mote con huesillo -->
+    <main class="flex justify-center p-4">
+      <a
+        href="https://www.meds.cl/especialistas/natalia-de-la-horra/"
+        class="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8 md:w-[70%]"
+      >
+        <span
+          class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+        ></span>
+
+        <div class="sm:flex sm:justify-between sm:gap-4">
+          <div>
+            <h3 class="text-lg font-bold text-gray-900 sm:text-xl">
+              Dato nutricional según Clínica Meds
+            </h3>
+
+            <p class="mt-1 text-xs font-medium text-gray-600">
+              Por Natalia de la Horra
+            </p>
+          </div>
+
+          <div class="hidden sm:block sm:shrink-0">
+            <img
+              alt=""
+              src="./assets/Imagen1.png"
+              class="size-16 rounded-lg object-cover shadow-sm"
+            />
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <p class="text-pretty text-sm text-gray-500">
+            Natalia de la Horra, nutricionista deportiva e infantil de Clínica
+            Meds, comenta que el mote es una excelente fuente de energía y,
+            además, aporta fibra, vitaminas y minerales. “Al ser un carbohidrato
+            complejo y rico en fibra, promueve la saciedad y actúa como
+            prebiótico en el intestino, favoreciendo el crecimiento y desarrollo
+            de la flora bacteriana benéfica, lo cual nos otorga múltiples
+            beneficios, entre ellos, destacan la salud intestinal y la respuesta
+            inmune en general”, argumenta.
+          </p>
+        </div>
+      </a>
+    </main>
+
+    <!-- datos de mote con huesillo -->
+    <main class="flex flex-wrap gap-x-3 justify-around py-6">
+      <div
+        class="max-w-sm min-w-[300px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img
+            class="rounded-t-lg"
+            src="./assets/Receta_1-1-scaled.jpg"
+            alt="datos de mote con huesillo"
+          />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Dato curioso
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            El mote con huesillo, es un postre popular de la cultura chilena. Su
+            refrescante sabor, invita a grandes y pequeños a disfrutar de esta
+            exquisita receta. A pesar de que es un postre que se consume durante
+            todo el año, incrementa su comercialización o realización de forma
+            casera, durante fechas típicas o las fiestas patrias de nuestro
+            país.
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img
+            class="rounded-t-lg"
+            src="./assets/Mote-con-huesillo.jpg"
+            alt="datos de mote con huesillo"
+          />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Origenes del mote con huesillo
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            El mote con huesillos es una bebida tradicional chilena que se
+            originó en la época de la conquista española, cuando los pueblos
+            indígenas comenzaron a utilizar el trigo traído por los colonos.
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img
+            class="rounded-t-lg"
+            src="./assets/mote-con-huesillos-10-768x588.jpg"
+            alt="datos de mote con huesillo"
+          />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Datos anecdoticos
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            El mote con huesillos es una bebida tradicional chilena sin alcohol,
+            principalmente de la zona central del país, que se compone de una
+            mezcla de jugo acaramelado de durazno, con mote de trigo y duraznos
+            deshidratados, llamados huesillos. El mote con huesillo más grande
+            de Chile ha sido registrado en la ciudad de Osorno, en el sector de
+            Francke, el 23 de enero de 2008. Este consistió en 500 litros de la
+            bebida, preparados a partir de 65 kg de huesillos, 60 kg de mote y
+            50 kg de azúcar.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
